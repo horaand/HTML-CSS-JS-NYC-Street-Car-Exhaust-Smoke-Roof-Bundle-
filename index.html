@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NYC Street Car — Exhaust Smoke & Roof Bundle (original & free)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="city"></canvas>
+
+  <section class="hud" aria-label="Controls">
+    <h1>NYC Street Car</h1>
+    <div class="rows">
+      <div class="row">
+        <label for="speed">Speed: <strong id="speedOut">1.00</strong>x</label>
+        <input id="speed" type="range" min="0" max="3" step="0.01" value="1" />
+      </div>
+      <div class="toggles">
+        <label class="toggle"><input id="smoke" type="checkbox" checked /><span>Exhaust smoke</span></label>
+        <label class="toggle"><input id="lights" type="checkbox" checked /><span>Headlights</span></label>
+        <label class="toggle"><input id="night" type="checkbox" checked /><span>Night mode</span></label>
+      </div>
+      <p class="note">...</p>
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
